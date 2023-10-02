@@ -15,3 +15,12 @@ zakaria@ubuntu:/tmp/h$
 ```
 
 #### 1. Confused smiley
+File: `1-confused_smiley`
+
+Write a script that displays a confused smiley "(Ôo)'.
+```
+zakaria@ubuntu:/tmp/h$ ./1-confused_smiley 
+"(Ôo)'
+zakaria@ubuntu:/tmp/h$ 
+```
+
