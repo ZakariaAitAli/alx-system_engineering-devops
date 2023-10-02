@@ -56,4 +56,35 @@ _krbfast:*:246:-2:Kerberos FAST Account:/var/empty:/usr/bin/false
 $
 ```
 
+#### 3. What about 2?
+File: `3-twofiles`
+
+Display the content of /etc/passwd and /etc/hosts
+```
+$ ./3-twofiles
+##
+# User Database
+#
+# Note that this file is consulted directly only when the system is running
+# in single-user mode. At other times this information is provided by
+# Open Directory.
+#
+# See the opendirectoryd(8) man page for additional information about
+# Open Directory.
+##
+nobody:*:-2:-2:Unprivileged User:/var/empty:/usr/bin/false
+root:*:0:0:System Administrator:/var/root:/bin/sh
+daemon:*:1:1:System Services:/var/root:/usr/bin/false
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting. Do not change this entry.
+##
+127.0.0.1   localhost
+255.255.255.255 broadcasthost
+::1 localhost
+$
+```
+
 
