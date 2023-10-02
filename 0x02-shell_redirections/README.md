@@ -13,3 +13,5 @@ zakaria@ubuntu:/tmp/h$ ./0-hello_world | cat -e
 Hello, World$
 zakaria@ubuntu:/tmp/h$ 
 ```
+
+#### 1. Confused smiley
