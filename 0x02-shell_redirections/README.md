@@ -105,4 +105,26 @@ _astris:*:245:245:Astris Services:/var/db/astris:/usr/bin/false
 _krbfast:*:246:-2:Kerberos FAST Account:/var/empty:/usr/bin/false
 ```
 
+#### 5. I'd prefer the first ones actually
+File: `5-firstlines`
+
+Display the first 10 lines of /etc/passwd
+```
+$ ./5-firstlines
+##
+# User Database
+#
+# Note that this file is consulted directly only when the system is running
+# in single-user mode. At other times this information is provided by
+# Open Directory.
+#
+# See the opendirectoryd(8) man page for additional information about
+# Open Directory.
+##
+$
+```
+
+
+
+
 
